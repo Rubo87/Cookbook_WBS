@@ -83,7 +83,7 @@ main {
 .btm_container {
     background-color: #3b3e3b;
     height: auto; 
-    position: absolute; 
+    position:static; 
     bottom: 0px;
     width: 100%;
 }
