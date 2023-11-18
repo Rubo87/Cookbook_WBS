@@ -1,1 +1,94 @@
 
+
+/* Second half starts */
+
+
+
+
+
+
+
+
+
+
+
+/* Second half ends */
+
+/* Footer starts */
+.btm_container {
+    background-color: #3b3e3b;
+    height: auto; 
+    position: absolute; 
+    bottom: 0px;
+    width: 100%;
+}
+
+.btm_container1 {  
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding-top: 20px;
+}
+
+.socialm {  
+    background-color:#3b3e3b;
+    display: flex; 
+    justify-content:space-around;
+    margin: auto; 
+    align-items: center;
+    bottom: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.socialm a {
+    text-decoration: none;
+    color: white;   
+}
+
+.facebook :hover {
+    text-decoration: none;
+    color: #4267B2;
+}
+
+.instagram :hover {
+    text-decoration: none;
+    color: #833AB4; 
+}
+
+.whatsapp :hover{
+    color: rgb(5, 207, 5) !important;
+}
+
+.youtube :hover {
+    text-decoration: none;
+    color: #FF0000; 
+}
+
+.twitter :hover {
+    text-decoration: none;
+    color: #1DA1F2;
+}
+
+.Copyright {   
+    background-color: #3b3e3b;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: small;
+}
+
+.fline {
+    color: rgb(93, 92, 92);
+}
+
+.signup {
+    display: flex;
+    align-items:stretch;
+}
+
+
+/* Footer ends */
