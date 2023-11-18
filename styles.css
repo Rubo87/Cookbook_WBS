@@ -75,7 +75,11 @@ main {
 
 /* Second half starts */
 
-
+.mainyfooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 
 
