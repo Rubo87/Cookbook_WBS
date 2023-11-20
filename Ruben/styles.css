@@ -41,8 +41,8 @@ li a:hover {
 .btm_container {
     background-color: #3b3e3b;
     height: auto; 
-    position: static;
-    margin-bottom: 0px;
+    position:static; 
+    bottom: 0px;
     width: 100%;
 }
 
@@ -110,8 +110,11 @@ li a:hover {
 
 .signup {
     display: flex;
-    align-items:stretch;
+    flex-direction: column;
+    gap: 10px;
 }
+
+
 
 
 /* Footer ends */
