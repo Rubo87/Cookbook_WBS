@@ -1,41 +1,13 @@
+/*Navigation bar*/
 header {
-    width: 100%;
-    height: 100px;
-    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px;
     background-color: #00CC00;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-}
-
-nav, div.logo {
-    width: 50%;
-    margin-top: 19px;
-    justify-items: center;
-}
-
-div.logo {
-    position: absolute;
-    right: 100px;
-}
-
-@media (max-width: 768px) {
-    div.logo {
-        position: absolute;
-        right: -3px;
-    }
-
-    div.logo {
-        display: none;
-    }
-
-    li a {
-        font-size: 16px;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-    }
+    color: #fff;
+    border-bottom: 4px solid #fdb347;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 ul li {
@@ -56,14 +28,11 @@ li a:hover {
     color: blueviolet;
 }
 
-main {
-    margin-top: 110px;
-    margin-bottom: 50px;
-}
 
-.greeting {
-    display: grid;
+main {
+    margin: 20px;
 }
+/*Alex*/
 
 .greeting-title {
     font-family: 'Fasthand', serif;
@@ -71,9 +40,17 @@ main {
     text-align: center;
 }
 
+.greeting-instruction {
+    text-align: center;
+}
+
+.invite {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
 
 
-/* Second half starts */
+/* Rubin */
 
 .mainyfooter {
     display: flex;

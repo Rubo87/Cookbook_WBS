@@ -1,1 +1,143 @@
+/*Header Section*/
+header {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px;
+    background-color: #00CC00;
+    color: #fff;
+    border-bottom: 4px solid #fdb347;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  ul li {
+    display: inline;
+    justify-content: space-evenly;
+    margin-left: 30px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 34px;
+    font-family: 'Gochi Hand', serif;
+}
+
+li a:hover {
+    color: blueviolet;
+}
+
+/*Main*/
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+h1 {
+    text-align: center;
+    font-family: Nabla, sans-serif;
+}
+
+.instructions {
+    text-align: center;
+}
+
+#carouselWithCaptions {
+    margin: 3em auto;
+    width: 400px;
+    color: pink;
+}
+
+.carousel-caption p {
+    color: rgb(178, 202, 73);
+    font-weight: bolder;
+}
+
+.carousel-caption h5 {
+    color: black;
+    font-weight: bolder;
+    text-decoration: dotted;
+}
+
+.home-button {
+    margin: 20px;
+}
+
+/* Footer starts */
+.btm_container {
+    background-color: #3b3e3b;
+    height: auto; 
+    position:static; 
+    bottom: 0px;
+    width: 100%;
+}
+
+.btm_container1 {  
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding-top: 20px;
+}
+
+.socialm {  
+    background-color:#3b3e3b;
+    display: flex; 
+    justify-content:space-around;
+    margin: auto; 
+    align-items: center;
+    bottom: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.socialm a {
+    text-decoration: none;
+    color: white;   
+}
+
+.facebook :hover {
+    text-decoration: none;
+    color: #4267B2;
+}
+
+.instagram :hover {
+    text-decoration: none;
+    color: #833AB4; 
+}
+
+.whatsapp :hover{
+    color: rgb(5, 207, 5) !important;
+}
+
+.youtube :hover {
+    text-decoration: none;
+    color: #FF0000; 
+}
+
+.twitter :hover {
+    text-decoration: none;
+    color: #1DA1F2;
+}
+
+.Copyright {   
+    background-color: #3b3e3b;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: small;
+}
+
+.fline {
+    color: rgb(93, 92, 92);
+}
+
+.signup {
+    display: flex;
+    align-items:stretch;
+}
+
 
