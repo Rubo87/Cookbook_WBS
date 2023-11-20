@@ -32,6 +32,8 @@ li a:hover {
 main {
     margin: 20px;
 }
+
+
 /*Alex*/
 
 .greeting-title {
@@ -44,10 +46,6 @@ main {
     text-align: center;
 }
 
-.invite {
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-}
 
 
 /* Rubin */
@@ -141,7 +139,8 @@ main {
 
 .signup {
     display: flex;
-    align-items:stretch;
+    flex-direction: column;
+    gap: 10px;
 }
 
 
