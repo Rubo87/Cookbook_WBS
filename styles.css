@@ -28,7 +28,6 @@ li a:hover {
     color: blueviolet;
 }
 
-/*Main*/
 
 main {
     margin: 20px;
@@ -53,7 +52,11 @@ main {
 
 /* Rubin */
 
-
+.mainyfooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 
 
