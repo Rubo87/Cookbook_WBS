@@ -36,6 +36,30 @@ li a:hover {
     flex-direction: column;
     justify-content: space-between;
 }
+
+.steps {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+
+} 
+
+#carouselExampleIndicators {
+    margin: 3em auto;
+    width: 600px;
+}
+.carousel-item img {
+    max-width: 600px;
+    max-height: 600px;
+
+    }
+
+
+.ingredients ul {
+    display: flex;
+    flex-direction: column;
+}
 /* Main ends */
 /* Footer starts */
 .btm_container {
