@@ -29,6 +29,11 @@ li a:hover {
 }
 
 /* Header ends */
+
+body {
+
+}
+
 /* Main starts */
 .mainyfooter {
     display: flex;
@@ -36,6 +41,7 @@ li a:hover {
     flex-direction: column;
     justify-content: space-between;
 }
+
 
 .steps {
     display: flex;
@@ -45,6 +51,18 @@ li a:hover {
 
 } 
 
+h3 {
+    font-size: 34px;
+    font-family: 'Gochi Hand', serif;
+    margin-left: auto;
+}
+
+.ingredientes {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+    
 #carouselExampleIndicators {
     margin: 3em auto;
     width: 600px;
